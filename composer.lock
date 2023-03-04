@@ -1,0 +1,75 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3231d17265ade59a75a4f26238faf35f",
+    "packages": [
+        {
+            "name": "fruitriin/lucienne",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fruitriin/lucienne.git",
+                "reference": "475b8dca7c768aef3ae63b561085b9156910598d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fruitriin/lucienne/zipball/475b8dca7c768aef3ae63b561085b9156910598d",
+                "reference": "475b8dca7c768aef3ae63b561085b9156910598d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Riin\\Lucienne\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Riin\\Lucienne\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FruitRiin",
+                    "email": "nassii74@gmail.com"
+                }
+            ],
+            "description": "My own framework",
+            "homepage": "https://github.com/fruitriin/lucienne",
+            "keywords": [
+                "framework",
+                "mvc",
+                "web"
+            ],
+            "support": {
+                "source": "https://github.com/fruitriin/lucienne/tree/main",
+                "issues": "https://github.com/fruitriin/lucienne/issues"
+            },
+            "time": "2023-03-04T11:18:51+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "fruitriin/lucienne": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
