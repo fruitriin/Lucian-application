@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fruitriin/lucienne.git",
-                "reference": "475b8dca7c768aef3ae63b561085b9156910598d"
+                "reference": "25c26ca77e5cb0d9e49b45076e7e673967f5aa98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fruitriin/lucienne/zipball/475b8dca7c768aef3ae63b561085b9156910598d",
-                "reference": "475b8dca7c768aef3ae63b561085b9156910598d",
+                "url": "https://api.github.com/repos/fruitriin/lucienne/zipball/25c26ca77e5cb0d9e49b45076e7e673967f5aa98",
+                "reference": "25c26ca77e5cb0d9e49b45076e7e673967f5aa98",
                 "shasum": ""
             },
             "require": {
@@ -30,7 +30,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Riin\\Lucienne\\": "src/"
+                    "FruitRiin\\Lucienne\\": "src/"
                 }
             },
             "autoload-dev": {
@@ -58,7 +58,7 @@
                 "source": "https://github.com/fruitriin/lucienne/tree/main",
                 "issues": "https://github.com/fruitriin/lucienne/issues"
             },
-            "time": "2023-03-04T11:18:51+00:00"
+            "time": "2023-03-05T08:11:15+00:00"
         }
     ],
     "packages-dev": [],

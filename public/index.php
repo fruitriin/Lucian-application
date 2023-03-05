@@ -1,9 +1,10 @@
 <?php
 
-
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use Riin\Lucienne\Hello;
+echo "hello";
 
-$hello = new Hello();
+use FruitRiin\Lucienne\HelloWorld;
+
+$hello = new HelloWorld();
 $hello->sayHello();
