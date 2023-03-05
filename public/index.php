@@ -1,10 +1,8 @@
 <?php
 
 require_once __DIR__ . '/../vendor/autoload.php';
+use FruitRiin\Lucienne\Router;
 
-echo "hello";
+$route = new Router();
+$route->run();
 
-use FruitRiin\Lucienne\HelloWorld;
-
-$hello = new HelloWorld();
-$hello->sayHello();

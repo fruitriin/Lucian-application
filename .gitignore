@@ -469,3 +469,5 @@ vendor
 *.css.map
 *.sass.map
 *.scss.map
+.idea
+composer.lock
