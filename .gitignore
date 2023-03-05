@@ -470,4 +470,3 @@ vendor
 *.sass.map
 *.scss.map
 .idea
-composer.lock
